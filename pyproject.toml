@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "proyecto final ml"
+version = "0.1.0"
+description = "Estimación de Niveles de obesidad basado en hábitos alimenticios y condición física."
+authors = ["jostalpi <jalonso13469@universidadean.edu.co>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
